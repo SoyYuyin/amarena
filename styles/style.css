@@ -22,6 +22,7 @@ body {
   background-color: #eee;
   font-family: 'Kalam', cursive;
   color: var(--primary-color-dark);
+  margin: 0 2rem;
 }
 
 p {
@@ -40,6 +41,11 @@ h2 {
   font-size: 1rem;
 }
 
+#celular {
+  text-decoration: none;
+  color: var(--secondary-color-light);
+  margin: 0 auto;
+}
 nav {
   padding: 1rem;
   flex-direction: row;
@@ -55,6 +61,13 @@ nav > div {
   align-items: center;
   justify-content: center;
   margin: 0 0 0.5rem 0;
+}
+
+nav > div > div {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
 }
 
 nav ul a {
