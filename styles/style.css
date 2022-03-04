@@ -114,6 +114,7 @@ nav ul {
   flex-direction: column;
   max-width: 500px;
   margin: 0.5rem;
+  margin-top: auto;
   transition: transform 0.2s;
 }
 
