@@ -110,18 +110,19 @@ nav ul {
 }
 
 .tarjeta-menu {
+  width: 100%;
   display: flex;
   flex-direction: column;
   max-width: 500px;
-  margin: 0.5rem;
-  margin-top: auto;
+  margin: auto 0.5rem 1.5rem 0.5rem;
   transition: transform 0.2s;
 }
 
 .tarjeta-menu:hover {
   /* background-color: var(--secondary-color-light); */
   color: var(--primary-color-light);
-  transform: scale(1.05);
+  transform: translateY(-0.3rem);
+  box-shadow: 0 0.3rem;
 }
 
 .tarjeta-menu h3 {
