@@ -10,7 +10,7 @@
 
   --secondary-color-standard: #4a280a;
   --secondary-color-dark: #2b1400;
-  --secondary-color-light: #8b5f38;
+  --secondary-color-light: #c98850;
 
   --tertiary-color-standard: #36082b;
   --tertiary-color-dark: #200018;
@@ -22,7 +22,7 @@ body {
   background-color: #eee;
   font-family: 'Kalam', cursive;
   color: var(--primary-color-dark);
-  margin: 0 2rem;
+  /* margin: 0 2rem; */
 }
 
 p {
@@ -79,7 +79,7 @@ nav ul a {
 }
 
 nav ul a:hover {
-  background-color: var(--secondary-color-light);
+  background-color: var(--primary-color-light);
 }
 
 nav ul a:visited {
@@ -139,6 +139,8 @@ nav ul {
 /* Aside (section) */
 
 aside {
+  background-color: var(--primary-color-dark);
+  color: var(--secondary-color-light);
   margin: 2rem;
   display: flex;
   flex-direction: column;
