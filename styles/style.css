@@ -105,6 +105,8 @@ nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .tarjeta-menu {
@@ -126,7 +128,12 @@ nav ul {
 }
 
 .tarjeta-menu img {
-  width: 500px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.tarjeta-menu p {
+  margin: 0 auto;
 }
 
 /* Footer */
